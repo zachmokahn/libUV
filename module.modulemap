@@ -1,5 +1,5 @@
 module libUV [system] {
-  header "/usr/local/include/uv.h"
+  header "include/uv-swift.h"
   link "uv"
   export *
 }
